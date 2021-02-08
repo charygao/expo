@@ -12,7 +12,7 @@ if (__DEV__) {
   try {
     // Optionally import expo-keep-awake
     const { useKeepAwake } = require('expo-keep-awake');
-    useDevKeepAwake = useKeepAwake
+    useDevKeepAwake = useKeepAwake;
   } catch {}
 }
 
